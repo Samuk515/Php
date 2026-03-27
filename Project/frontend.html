@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout">
+
+    <div class="sidebar">
+        <img src="harvard.jpeg" height="100" width="100" alt="Harvard Logo" >
+        <h1>Harvard University</h1>
+        <h2>Dashboard</h2>
+
+        <ul class="menu">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="students.php">Students</a></li>
+            <li><a href="teachers.php">Teachers</a></li>
+            <li><a href="attendance.php">Attendance</a></li>
+            <li><a href="subjects.php">Subjects</a></li>
+            <li><a href="fees.php">Fees</a></li>
+            <li><a href="perfomance.php">Performance</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+
+        <div class="topbar">
+            <h2><i>Welcome, Admin</i></h2>
+            <a class="btn" href="new_student.php">+ Add New Student</a>
+        </div>
+
+        <div class="dashboard">
+
+            <div class="header">
+                <h1>Dashboard</h1>
+                <p>Home / Dashboard</p>
+            </div>
+
+            <div class="detail-box">
+                <div class="detail">
+                    <h3>50,000</h3>
+                    <p>Total Students</p>
+                </div>
+                <div class="detail">
+                    <h3>500</h3>
+                    <p>Teachers</p>
+                </div>
+                <div class="detail">
+                    <h3>$40,000</h3>
+                    <p>Pending Dues</p>
+                </div>
+                <div class="detail">
+                    <h3>$100,000</h3>
+                    <p>Fees Collected</p>
+                </div>
+            </div>
+
+            <div class="table-box">
+                <h2>Notice Board</h2>
+
+                <table class="table">
+                    <tr>
+                        <th>S.N.</th>
+                        <th>Notice</th>
+                        <th>Date</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>BCA 3rd semester exams starting</td>
+                        <td>Baisakh 14</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>BSc CSIT first term result published</td>
+                        <td>Chaitra 29</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>BHM practical exam</td>
+                        <td>Baisakh 10</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>BCA 4th semester practical exam</td>
+                        <td>Baisakh 25</td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
